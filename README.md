@@ -12,7 +12,7 @@ This repository contains all the information shared during my <b>Learn365</b> Ch
 <br>
 
 ### :bulb: *The investment you make in yourself through learning will pay off in the long run.*
-
+### :bulb: *Today is the first page of a 365-page book. Be a good writer.*
 <br>
 
 <!-- Days start -->
@@ -21,8 +21,7 @@ This repository contains all the information shared during my <b>Learn365</b> Ch
 
 Day | Topic
 --- | ---
-**January 1, 2024** | [**<ul><li>"Today is the first page of a 365-page book. Be a good writer."</li></ul>**]<br>
-[**<ul><li>EC-Ccouncil - Learning | Hands-on Linux for DevOps & Cloud Engineers</li></ul>**](/Days/Day1.md)
+**January 1, 2024** | [**<ul><li> "xXx" </li></ul>**](/Days/Day1.md)
 **January 2, 2024** | [**<ul><li> "xXx" </li></ul>**](/Days/Day2.md)
 **January 3, 2024** | [**<ul><li> "xXx" </li></ul>**](/Days/Day3.md)
 **January 4, 2024** | [**<ul><li> "xXx" </li></ul>**](/Days/Day4.md)
