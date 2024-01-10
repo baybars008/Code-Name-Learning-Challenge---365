@@ -116,7 +116,7 @@ Pipeline, yazılımı bir yerden bir yere taşıyan süreç ve araçtır. Genell
 • namespaces (isim Alanları)
 • C groups (C grupları)
 • Container Orchestration (Konteyner Orkestrasyonu)
-![Alt text](https://github.com/baybars008/Code-Name-Learning-Challenge---365/blob/main/all-images/image-1.png?raw=true)
+![Alt text](https://github.com/baybars008/Code-Name-Learning-Challenge---365/blob/418307b458a9ee0c7baa7f354451a706f534f26a/all-images/image-1.png)
 • Kubernetes
 • Manages discovery (Keşfi Yönetir)
 • Batteries included (Piller Dahildir)
