@@ -37,6 +37,91 @@ Yaygın Linux kullanım örnekleri:
 • Super Computing: Linux, kutudan çıktığında ihtiyacınız olan çoğu şeyle önceden yüklenmiş olarak gelir.
 • Virtualization: Sanallaştırma Linux üzerinde birinci sınıf bir vatandaştır.
 ```
+</br>
+
+<h3> Overview of DevOps and Cloud Fundamentals </h3> 
+
+</br>
+
+#### 1. Introduction to DevOps
+```
+• Devoops terimi iki kelimeden oluşan bir karışımdır: Geliştirme ve operasyonlar.
+• 2009 yılında Patrick Dubols tarafından dile getirilmiştir.
+• Ancak devops fikri ve öntemleri, toyata'nın öncü olduğu yalın üretim sisteminden ödünç alınmıştır.
+   ◇ (Yalın üretim nedir: Yalın üretimimizi bir çekme sistemine göre üretimimize ve işimize uyguluyoruz; bu da yalnızca sipariş verdiğiniz ürünü ürettiğimiz anlamına geliyor. Bu sayede, her şeyi zamanında üretebilir, sorunsuz bir iş akışı üretiriz.)
+```
+
+#### 2. Devops'da akıllıca adlandırılmış üç ana kavram vardır.
+```
+• Systems and Flow: Sistemin hızı.
+• Feedback: Amaç, iyileştirme göz önünde bulundurularak sıkı geri bildirim döngüleridir.
+• Continuous Experimentation and Learning: Başarısızlıktan ders alın ve sistemi değiştirmeye devam edin.
+```
+
+#### 3. Devops neden uygulanmalı?
+```
+• Technical Benefits (Teknik Faydalar)
+• Cultural Benefits (Kültürel Faydalar)
+• Business Improvements (İş İyileştirmeleri)
+```
+
+#### 4. DevOps İlkeleri
+```
+• Culture(kültür): strateji
+• Automation(otomasyon): Cephanelikdeki en önemli araç.
+• Lean(Yalın): Sisteminizdeki akışın kontrolü.
+• Measurement (ölçüm): Sisteminizin durumunu anlama eylemi.
+• Sharing (paylaşım): Paylaşım, açıklığı ve şeffaflığı teşvik eder.
+```
+
+#### 5. Devops neden uygulanmalı?
+```
+• Technical Benefits (Teknik Faydalar)
+• Cultural Benefits (Kültürel Faydalar)
+• Business Improvements (İş İyileştirmeleri)
+```
+
+#### 6. DevOps Terminolojileri
+```
+Bir ton teknik bilgi var fakat sadece yaygın 10 tanesini ele aldım.
+• Configuration Management (Konfigürasyon Yönetim)
+• Infrastructure as Code (Kod Olarak Altyapı)
+• Continuous Integration (Sürekli Entegrasyon)
+• Continuous Delivery (Sürekli Teslimat)
+• Continuous Deployment (Sürekli Dağıtım)
+• Continuous Monitoring (Sürekli İzleme)
+• Mean Time To Recovery (Ortalama İyileşme Süresi) 
+• Idempotent (Etkisiz -- Bir metodun bir defa çağrıldığında alınan sonuç ile birden fazla kez çağrıldığında alınan sonuç aynı ise bu bir idempotent metottur.)
+• Imperative (Zorunluluk)
+• Declarative (Bildirimsel)
+```
+
+#### 7. DevOps Pipeline (DevOps Boru Hattı)
+```
+Dağıtım yaşam döngüleri, yazılım geliştirme için kullanılır.
+Pipeline, yazılımı bir yerden bir yere taşıyan süreç ve araçtır. Genellikle altı aşamaya ayrılır. Bunlar:
+• Planning(Planlama): Projeleri ve yol haritalarını planlayın.
+• Develop (Geliştirmek): Bu, kod yazdığınız aşamadır.
+• Build (İnşa etmek): Kod bir yapıtın içine yerleştirilir.
+• Test: Oluşturulan eserin test edilmesi.
+• Release (Serbest Bırak): Kod üretime hazır hale gelmeden önce son kontrol.
+• Monitor (Monitör): Metrikler ve veri toplama aşaması.
+```
+
+#### 8. Containers and Container Orchestrations (Konteynerler ve Konteyner Orkestrasyonları)
+```
+• Container Architecture (Konteyner Mimarisi)
+![Alt text](image.png)
+• OS-Level Virtualization (İşletim Sistemi Düzeyinde Sanallaştırma)
+• namespaces (isim Alanları)
+• C groups (C grupları)
+• Container Orchestration (Konteyner Orkestrasyonu)
+![Alt text](image-1.png)
+• Kubernetes
+• Manages discovery (Keşfi Yönetir)
+• Batteries included (Piller Dahildir)
+• Open-Source
+```
 
 <hr/>
 
