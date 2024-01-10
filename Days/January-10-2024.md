@@ -1,4 +1,4 @@
-<h2> [Day-1] January 1, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [TR] </h2> 
+<h2> [Day-10] January 10, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [TR] </h2> 
 
 </br>
 
@@ -153,7 +153,7 @@ Overview of DevOps and Cloud Computing (DevOps ve Bulut Bilişime Genel Bakış)
 
 </br>
 
-<h2> [Day-1] January 1, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
+<h2> [Day-10] January 10, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
 
 </br>
 
@@ -192,4 +192,88 @@ Common uses of Linux include:
 • IoT: Linux is employed in IoT devices.
 • Super Computing: Linux comes preloaded with most of the necessities right out of the box.
 • Virtualization: Virtualization is a first-class citizen on Linux.
+```
+
+#### 4. DevOps İlkeleri
+```
+• Culture(kültür): strateji
+• Automation(otomasyon): Cephanelikdeki en önemli araç.
+• Lean(Yalın): Sisteminizdeki akışın kontrolü.
+• Measurement (ölçüm): Sisteminizin durumunu anlama eylemi.
+• Sharing (paylaşım): Paylaşım, açıklığı ve şeffaflığı teşvik eder.
+```
+
+#### 5. Devops neden uygulanmalı?
+```
+• Technical Benefits (Teknik Faydalar)
+• Cultural Benefits (Kültürel Faydalar)
+• Business Improvements (İş İyileştirmeleri)
+```
+
+#### 6. DevOps Terminolojileri
+```
+Bir ton teknik bilgi var fakat sadece yaygın 10 tanesini ele aldım.
+• Configuration Management (Konfigürasyon Yönetim)
+• Infrastructure as Code (Kod Olarak Altyapı)
+• Continuous Integration (Sürekli Entegrasyon)
+• Continuous Delivery (Sürekli Teslimat)
+• Continuous Deployment (Sürekli Dağıtım)
+• Continuous Monitoring (Sürekli İzleme)
+• Mean Time To Recovery (Ortalama İyileşme Süresi) 
+• Idempotent (Etkisiz -- Bir metodun bir defa çağrıldığında alınan sonuç ile birden fazla kez çağrıldığında alınan sonuç aynı ise bu bir idempotent metottur.)
+• Imperative (Zorunluluk)
+• Declarative (Bildirimsel)
+```
+
+#### 7. DevOps Pipeline (DevOps Boru Hattı)
+```
+Dağıtım yaşam döngüleri, yazılım geliştirme için kullanılır.
+Pipeline, yazılımı bir yerden bir yere taşıyan süreç ve araçtır. Genellikle altı aşamaya ayrılır. Bunlar:
+• Planning(Planlama): Projeleri ve yol haritalarını planlayın.
+• Develop (Geliştirmek): Bu, kod yazdığınız aşamadır.
+• Build (İnşa etmek): Kod bir yapıtın içine yerleştirilir.
+• Test: Oluşturulan eserin test edilmesi.
+• Release (Serbest Bırak): Kod üretime hazır hale gelmeden önce son kontrol.
+• Monitor (Monitör): Metrikler ve veri toplama aşaması.
+```
+
+#### 8. Containers and Container Orchestrations (Konteynerler ve Konteyner Orkestrasyonları)
+```
+• Container Architecture (Konteyner Mimarisi)
+![Alt text](all-images/image.png)
+• OS-Level Virtualization (İşletim Sistemi Düzeyinde Sanallaştırma)
+• namespaces (isim Alanları)
+• C groups (C grupları)
+• Container Orchestration (Konteyner Orkestrasyonu)
+![Alt text](all-images/image-1.png)
+• Kubernetes
+• Manages discovery (Keşfi Yönetir)
+• Batteries included (Piller Dahildir)
+• Open-Source
+```
+
+#### 9. Benefits of Cloud Computing (Bulut Bilişimin Faydaları)
+```
+• Different Technologies (Farklı Teknolojiler)
+• Scaling Resources (Ölçeklendirme Kaynakları): Hizmetlerinizin ölçeklendirilmesini otomatikleştirebilirsiniz.
+• Cost Savings (Maliyet Tasarufu): Talep üzerine fiyatlandırma ile yalnızca kullandığınız kadar ödersiniz.
+• Global Reach (Küresel Erişim): Uygulamanızı saniyeler içinde dünya çapında çalıştırabilirsini
+```
+
+#### 10. Cloud Computing Service Models (Bulut Bilişim Hizmet Modelleri)
+```
+Overview of DevOps and Cloud Computing (DevOps ve Bulut Bilişime Genel Bakış)
+• Three Service Models (Üç Hizmet Modeli)
+   ◇ IaaS -- Infrastructure as a Service (Hizmet Olarak Altyapı)
+   ◇ PaaS -- Platform as a Service (Hizmet Olarak Platform)
+   ◇ SaaS -- Software as a Service (Hizmet Olarak Yazılım)
+```
+
+#### 11. Cloud Computing Deployment Models (Bulut Bilişim Dağıtım Modelleri)
+```
+• Four Deployment Models (Dört Dağıtım Modeli)
+   ◇ Public: Altyapı ve hizmetlere internet üzerinden erişilmektedir.
+   ◇ Hybrid: Özel ve kamu modellerinin kombinasyonu.
+   ◇ Private: Altyapı ve hizmetlere özel bir veri merkezinden erişilir ve hizmet verilir.
+   ◇ Multi: Altyapı ve hizmetlere iki veya daha fazla bulut sağlayıcısı üzerinden erişilir ve hizmet sunulur.
 ```

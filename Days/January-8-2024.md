@@ -1,4 +1,4 @@
-<h2> [Day-1] January 1, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [TR] </h2> 
+<h2> [Day-8] January 8, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [TR] </h2> 
 
 </br>
 
@@ -42,7 +42,7 @@ Yaygın Linux kullanım örnekleri:
 
 </br>
 
-<h2> [Day-1] January 1, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
+<h2> [Day-8] January 8, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
 
 </br>
 
