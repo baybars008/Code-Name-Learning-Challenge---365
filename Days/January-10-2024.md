@@ -116,11 +116,37 @@ Pipeline, yazılımı bir yerden bir yere taşıyan süreç ve araçtır. Genell
 • namespaces (isim Alanları)
 • C groups (C grupları)
 • Container Orchestration (Konteyner Orkestrasyonu)
-![Alt text](https://github.com/baybars008/Code-Name-Learning-Challenge---365/blob/418307b458a9ee0c7baa7f354451a706f534f26a/all-images/image-1.png)
+![Alt text](all-images/image-1.png)
 • Kubernetes
 • Manages discovery (Keşfi Yönetir)
 • Batteries included (Piller Dahildir)
 • Open-Source
+```
+
+#### 9. Benefits of Cloud Computing (Bulut Bilişimin Faydaları)
+```
+• Different Technologies (Farklı Teknolojiler)
+• Scaling Resources (Ölçeklendirme Kaynakları): Hizmetlerinizin ölçeklendirilmesini otomatikleştirebilirsiniz.
+• Cost Savings (Maliyet Tasarufu): Talep üzerine fiyatlandırma ile yalnızca kullandığınız kadar ödersiniz.
+• Global Reach (Küresel Erişim): Uygulamanızı saniyeler içinde dünya çapında çalıştırabilirsini
+```
+
+#### 10. Cloud Computing Service Models (Bulut Bilişim Hizmet Modelleri)
+```
+Overview of DevOps and Cloud Computing (DevOps ve Bulut Bilişime Genel Bakış)
+• Three Service Models (Üç Hizmet Modeli)
+   ◇ IaaS -- Infrastructure as a Service (Hizmet Olarak Altyapı)
+   ◇ PaaS -- Platform as a Service (Hizmet Olarak Platform)
+   ◇ SaaS -- Software as a Service (Hizmet Olarak Yazılım)
+```
+
+#### 11. Cloud Computing Deployment Models (Bulut Bilişim Dağıtım Modelleri)
+```
+• Four Deployment Models (Dört Dağıtım Modeli)
+   ◇ Public: Altyapı ve hizmetlere internet üzerinden erişilmektedir.
+   ◇ Hybrid: Özel ve kamu modellerinin kombinasyonu.
+   ◇ Private: Altyapı ve hizmetlere özel bir veri merkezinden erişilir ve hizmet verilir.
+   ◇ Multi: Altyapı ve hizmetlere iki veya daha fazla bulut sağlayıcısı üzerinden erişilir ve hizmet sunulur.
 ```
 
 <hr/>
