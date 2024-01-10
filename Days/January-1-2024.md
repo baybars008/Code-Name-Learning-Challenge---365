@@ -40,6 +40,8 @@ Yaygın Linux kullanım örnekleri:
 
 <hr/>
 
+</br>
+
 <h2> [Day-1] January 1, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
 
 </br>
