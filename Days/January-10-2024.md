@@ -116,7 +116,7 @@ Pipeline, yazılımı bir yerden bir yere taşıyan süreç ve araçtır. Genell
 • namespaces (isim Alanları)
 • C groups (C grupları)
 • Container Orchestration (Konteyner Orkestrasyonu)
-![Alt text](all-images/image-1.png)
+![Alt text](main/all-images/image-1.png)
 • Kubernetes
 • Manages discovery (Keşfi Yönetir)
 • Batteries included (Piller Dahildir)
