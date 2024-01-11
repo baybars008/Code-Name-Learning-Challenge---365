@@ -1,5 +1,3 @@
-This repository contains all the information shared during my Learn365 Challenge. This challenge will help me stay consistent and push myself to learn new things in the infosec world 💻. 
-
 # Learn365
 This repository contains all the information shared during my <b>Learn365</b> Challenge. This challenge will help me stay consistent and push myself to learn new things in the infosec world :computer:.
 
