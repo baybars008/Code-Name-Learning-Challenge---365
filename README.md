@@ -19,7 +19,7 @@ This repository contains all the information shared during my <b>Learn365</b> Ch
 
 ID | Day | Topic
 --- | --- | ---
-**1** | **January 1, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-1-2024.md)
+[ 1 ] | **January 1, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-1-2024.md)
 ** 2 ** | **January 2, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-2-2024.md)
 ** 3 ** | **January 3, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-3-2024.md)
 ** 4 ** | **January 4, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-4-2024.md)
