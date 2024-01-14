@@ -113,20 +113,16 @@ Kötü amaçlı yazılım analizi sırasında sıklıkla kriptografi ile karşı
 
 #### 9. Kötü Amaçlı Yazılımları Analiz Ederken Hangi Yaklaşımı Seçilmeli?
 ```
-Bir ton teknik bilgi var fakat sadece yaygın 10 tanesini ele aldım.
-• Configuration Management (Konfigürasyon Yönetim)
-• Infrastructure as Code (Kod Olarak Altyapı)
-• Continuous Integration (Sürekli Entegrasyon)
-• Continuous Delivery (Sürekli Teslimat)
-• Continuous Deployment (Sürekli Dağıtım)
-• Continuous Monitoring (Sürekli İzleme)
-• Mean Time To Recovery (Ortalama İyileşme Süresi) 
-• Idempotent (Etkisiz -- Bir metodun bir defa çağrıldığında alınan sonuç ile birden fazla kez çağrıldığında alınan sonuç aynı ise bu bir idempotent metottur.)
-• Imperative (Zorunluluk)
-• Declarative (Bildirimsel)
+Siber güvenlik savunma alanında çalışanların sıklıkla karşılaştığı bir görev olan zararlı yazılım analizi ve bu analizin iki farklı yaklaşımı ele alınmaktadır: Statik Analiz ve Dinamik Analiz.
+
+Statik Analiz: Bu yöntem, zararlı yazılımın çalıştırılmasına gerek kalmadan, kodunun incelenmesiyle gerçekleştirilir. Statik analiz, zararlı yazılımın yapısını, kullanılan kodları ve potansiyel davranışlarını anlamaya yardımcı olur. Bu yaklaşımın avantajı, zararlı yazılımı çalıştırmadan önce güvenli bir şekilde analiz edebilme yeteneğidir. Dezavantajı ise, bazı karmaşık zararlı yazılımların gizli özelliklerinin ve davranışlarının sadece çalıştırıldığında ortaya çıkması nedeniyle bu özellikleri kaçırma riskidir.
+
+Dinamik Analiz: Dinamik analiz, zararlı yazılımın kontrollü bir ortamda (genellikle bir sanal makine içinde) çalıştırılmasını ve davranışlarının gözlemlenmesini içerir. Bu yöntem, zararlı yazılımın gerçekte ne yaptığını anlamak için kullanılır; ağ trafiği, dosya işlemleri ve sistem değişiklikleri gibi gerçek zamanlı etkilerini izler. Dinamik analizin avantajı, zararlı yazılımın aktif olarak neler yapabileceğini gözlemleyebilme yeteneğidir. Dezavantajı ise, bu analiz sırasında zararlı yazılımın bazı zararlı eylemleri gerçekleştirmesi ve bu sürecin daha riskli olmasıdır.
+
+Her iki yöntemin de avantajları ve dezavantajları birbirine tamamlayıcı niteliktedir. Bu nedenle, kapsamlı bir zararlı yazılım analizi için genellikle her iki yöntemin birleştirilerek kullanılması önerilir. Bu, zararlı yazılımın daha derinlemesine anlaşılmasını ve etkili bir şekilde mücadele edilmesini sağlar.
 ```
 
-#### 7. DevOps Pipeline (DevOps Boru Hattı)
+#### 10. DevOps Pipeline (DevOps Boru Hattı)
 ```
 Dağıtım yaşam döngüleri, yazılım geliştirme için kullanılır.
 Pipeline, yazılımı bir yerden bir yere taşıyan süreç ve araçtır. Genellikle altı aşamaya ayrılır. Bunlar:
