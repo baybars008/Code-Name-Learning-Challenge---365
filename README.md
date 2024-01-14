@@ -32,5 +32,5 @@ ID | Day | Topic
 ** 11 ** | **January 11, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-11-2024.md)
 ** 12 ** | **January 12, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-12-2024.md)
 ** 13 ** | **January 13, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-13-2024.md)
-** 14 ** | **January 14, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-14-2024.md)
-** 15 ** | **January 15, 2024** | [**<ul><li> "Malware Analysis Course" </li></ul>**](/Days/January-15-2024.md)
+** 14 ** | **January 14, 2024** | [**<ul><li> "Malware Analysis Course" </li></ul>**](/Days/January-14-2024.md)
+** 15 ** | **January 15, 2024** | [**<ul><li> "XXX" </li></ul>**](/Days/January-15-2024.md)
