@@ -1,4 +1,4 @@
-<h2> [Day-10] January 10, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [TR] </h2> 
+<h2> [Day-11] January 11, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [TR] </h2> 
 
 </br>
 
