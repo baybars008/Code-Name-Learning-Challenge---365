@@ -247,7 +247,7 @@ It is generally divided into six stages:
 • namespaces
 • C groups
 • Container Orchestration
-![Alt text](all-images/image-1.png)
+![Alt text](/main/Days/all-images/image-1.png)
 • Kubernetes
 • Manages discovery
 • Batteries included
