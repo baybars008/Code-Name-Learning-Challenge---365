@@ -153,7 +153,7 @@ Overview of DevOps and Cloud Computing (DevOps ve Bulut Bilişime Genel Bakış)
 
 </br>
 
-<h2> \[Day-10\] January 10, 2024 : Hands-on Linux for DevOps & Cloud Engineers | \[EN\] </h2> 
+<h2> [Day-13] January 13, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
 
 </br>
 
