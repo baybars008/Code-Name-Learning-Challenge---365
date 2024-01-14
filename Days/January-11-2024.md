@@ -242,7 +242,7 @@ It is generally divided into six stages:
 #### 8. Containers and Container Orchestrations
 ```
 • Container Architecture
-![Alt text](all-images/image.png)
+![Alt text](Days/all-images/image.png)
 • OS-Level Virtualization
 • namespaces
 • C groups
