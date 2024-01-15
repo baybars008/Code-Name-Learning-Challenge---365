@@ -250,15 +250,14 @@ It is generally divided into six stages:
 • C groups
 • Container Orchestration
 ```
-image-1
+![image](all-images/image-1.png)
 ```
 • Kubernetes
 • Manages discovery
 • Batteries included
 • Open-Source
 ```
-![image](all-images/image.png)
-![image](all-images/image-1.png)
+
 #### 9. Benefits of Cloud Computing
 ```
 • Different Technologies

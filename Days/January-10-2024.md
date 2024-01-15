@@ -153,7 +153,7 @@ Overview of DevOps and Cloud Computing (DevOps ve Bulut Bilişime Genel Bakış)
 
 </br>
 
-<h2> [Day-10] January 10, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
+<h2> [Day-10] January 10, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2>  
 
 </br>
 
@@ -242,12 +242,16 @@ It is generally divided into six stages:
 #### 8. Containers and Container Orchestrations
 ```
 • Container Architecture
-![Alt text](all-images/image.png)
+```
+![image](all-images/image.png)
+```
 • OS-Level Virtualization
 • namespaces
 • C groups
 • Container Orchestration
-![Alt text](all-images/image-1.png)
+```
+![image](all-images/image-1.png)
+```
 • Kubernetes
 • Manages discovery
 • Batteries included

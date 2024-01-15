@@ -111,12 +111,12 @@ Pipeline, yazılımı bir yerden bir yere taşıyan süreç ve araçtır. Genell
 #### 8. Containers and Container Orchestrations (Konteynerler ve Konteyner Orkestrasyonları)
 ```
 • Container Architecture (Konteyner Mimarisi)
-!\[Alt text\](all-images/image.png)
+![Alt text](all-images/image.png)
 • OS-Level Virtualization (İşletim Sistemi Düzeyinde Sanallaştırma)
 • namespaces (isim Alanları)
 • C groups (C grupları)
 • Container Orchestration (Konteyner Orkestrasyonu)
-!\[Alt text\](all-images/image-1.png)
+![Alt text](all-images/image-1.png)
 • Kubernetes
 • Manages discovery (Keşfi Yönetir)
 • Batteries included (Piller Dahildir)
@@ -153,7 +153,7 @@ Overview of DevOps and Cloud Computing (DevOps ve Bulut Bilişime Genel Bakış)
 
 </br>
 
-<h2> [Day-13] January 13, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2> 
+<h2> [Day-13] January 13, 2024 : Hands-on Linux for DevOps & Cloud Engineers | [EN] </h2>  
 
 </br>
 
@@ -242,12 +242,16 @@ It is generally divided into six stages:
 #### 8. Containers and Container Orchestrations
 ```
 • Container Architecture
-!\[Alt text\](all-images/image.png)
+```
+![image](all-images/image.png)
+```
 • OS-Level Virtualization
 • namespaces
 • C groups
 • Container Orchestration
-!\[Alt text\](all-images/image-1.png)
+```
+![image](all-images/image-1.png)
+```
 • Kubernetes
 • Manages discovery
 • Batteries included
@@ -277,4 +281,5 @@ Overview of DevOps and Cloud Computing
    ◇ Public: Infrastructure and services are accessed over the internet.
    ◇ Hybrid: A combination of private and public models.
    ◇ Private: Infrastructure and services are accessed and served from a private data center.
-   ◇ Multi: Infrastructure and services are accessed and served through two or more cloud providers.](January-11-2024.md)
+   ◇ Multi: Infrastructure and services are accessed and served through two or more cloud providers.
+```
