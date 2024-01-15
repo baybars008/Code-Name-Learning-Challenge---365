@@ -16,7 +16,8 @@ This repository contains all the information shared during my <b>Learn365</b> Ch
 <!-- Days start -->
 
 <br>
-
+<details>
+  <summary>January</summary>
 ID | Day | Topic
 --- | --- | ---
 ** 1 ** | **January 1, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Days/January-1-2024.md)
@@ -38,3 +39,4 @@ ID | Day | Topic
 ** 17 ** | **January 17, 2024** | [**<ul><li> "XXX" </li></ul>**](/Days/January-17-2024.md)
 ** 18 ** | **January 18, 2024** | [**<ul><li> "XXX" </li></ul>**](/Days/January-18-2024.md)
 ** 19 ** | **January 19, 2024** | [**<ul><li> "XXX" </li></ul>**](/Days/January-19-2024.md)
+</details>
