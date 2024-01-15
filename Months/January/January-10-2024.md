@@ -245,20 +245,20 @@ It is generally divided into six stages:
 
 #### 8. Containers and Container Orchestrations
 ```
-• Container Architecture
+• Container Architecture (Konteyner Mimarisi)
 ```
-![image](all-images/image.png)
+![image](/Months/January/January-Images/January.png)
 ```
-• OS-Level Virtualization
-• namespaces
-• C groups
-• Container Orchestration
+• OS-Level Virtualization (İşletim Sistemi Düzeyinde Sanallaştırma)
+• namespaces (isim Alanları)
+• C groups (C grupları)
+• Container Orchestration (Konteyner Orkestrasyonu)
 ```
-![image](all-images/image-1.png)
+![image](/Months/January/January-Images/January-1.png)
 ```
 • Kubernetes
-• Manages discovery
-• Batteries included
+• Manages discovery (Keşfi Yönetir)
+• Batteries included (Piller Dahildir)
 • Open-Source
 ```
 
