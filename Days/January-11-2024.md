@@ -242,18 +242,23 @@ It is generally divided into six stages:
 #### 8. Containers and Container Orchestrations
 ```
 • Container Architecture
-![text](/main/Days/all-images/image.png)
+```
+![image](all-images/image.png)
+```
 • OS-Level Virtualization
 • namespaces
 • C groups
 • Container Orchestration
-![Alt text](/main/Days/all-images/image-1.png)
+```
+image-1
+```
 • Kubernetes
 • Manages discovery
 • Batteries included
 • Open-Source
 ```
-![text](all-images/image.png)
+![image](all-images/image.png)
+![image](all-images/image-1.png)
 #### 9. Benefits of Cloud Computing
 ```
 • Different Technologies
