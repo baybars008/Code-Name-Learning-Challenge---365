@@ -10,7 +10,7 @@ This repository contains all the information shared during my <b>Learn365</b> Ch
 <br>
 
 ### :bulb: *The investment you make in yourself through learning will pay off in the long run.*
-### :bulb: *Today is the first page of a 365-page book. Be a good writer.*
+### :bulb: *Today is the first page of a 365-page book. Be a good writer. (January 1, 2024)*
 <br>
 
 <!-- Days start -->
