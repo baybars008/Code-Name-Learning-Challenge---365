@@ -42,3 +42,12 @@ ID | Day | Topic
 ** 19 ** | **January 19, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-19-2024.md)
 
 </details>
+<br>
+<details>
+  <summary><b>*** FEBRUARY, 2024 ***</b></summary>
+
+ID | Day | Topic
+--- | --- | ---
+** 1 ** | **February 1, 2024** | [**<ul><li> "xXx" </li></ul>**](/Months/February/ex.md)
+
+</details>
