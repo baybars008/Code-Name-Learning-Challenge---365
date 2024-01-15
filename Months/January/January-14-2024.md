@@ -1,4 +1,4 @@
-<h2> [Day-14] January 14, 2024 : Malware Analysis Course | [TR] </h2> 
+<h2> [Day-14] January 14, 2024 : Malware Analysis Temelleri - Adım 01| [TR] </h2> 
 
 #### 1. Malware Analysis, SOC Analistlerine nasıl yardımcı olur?
 ```
@@ -213,7 +213,7 @@ Bu araçlar, zararlı yazılım tespiti ve analizi, tehdit istihbaratı, sistem 
 </br>
 
 
-<h2> [Day-14] January 14, 2024 : Malware Analysis Course | [TR] </h2> 
+<h2> [Day-14] January 14, 2024 : Malware Analysis Fundamentals - Step 01 | [TR] </h2> 
 
 #### 1. Malware Analysis, SOC Analistlerine nasıl yardımcı olur?
 ```

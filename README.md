@@ -34,7 +34,7 @@ ID | Day | Topic
 ** 11 ** | **January 11, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Months/January/January-11-2024.md)
 ** 12 ** | **January 12, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Months/January/January-12-2024.md)
 ** 13 ** | **January 13, 2024** | [**<ul><li> "Hands-on Linux for DevOps & Cloud Engineers" </li></ul>**](/Months/January/January-13-2024.md)
-** 14 ** | **January 14, 2024** | [**<ul><li> "Malware Analysis Course" </li></ul>**](/Months/January/January-14-2024.md)
+** 14 ** | **January 14, 2024** | [**<ul><li> "Malware Analysis Fundamentals - Step 01" </li></ul>**](/Months/January/January-14-2024.md)
 ** 15 ** | **January 15, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-15-2024.md)
 ** 16 ** | **January 16, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-16-2024.md)
 ** 17 ** | **January 17, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-17-2024.md)
