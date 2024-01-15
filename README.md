@@ -17,7 +17,7 @@ This repository contains all the information shared during my <b>Learn365</b> Ch
 
 <br>
 <details>
-  <summary>*** JANUARY, 2024***</summary>
+  <summary><b>*** JANUARY, 2024***</b></summary>
 
 ID | Day | Topic
 --- | --- | ---
