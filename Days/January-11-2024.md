@@ -253,7 +253,7 @@ It is generally divided into six stages:
 • Batteries included
 • Open-Source
 ```
-![text](Days/all-images/image.png)
+![text](all-images/image.png)
 #### 9. Benefits of Cloud Computing
 ```
 • Different Technologies
