@@ -87,12 +87,12 @@ Derlenmiş kötü amaçlı yazılımlar kolayca Assembly diline dönüştürüle
 
 Statik kod analizi eğitiminde, "Assembly" Dilinin temellerine de odaklanacağız.
 
- START
-• Preprocessor>>hello_world.c
-• Compiler>>hello_world.i
-• Assembler>>hello_world.s
-END
-Executable>>hello_world.exe
+~$ START
+~$ Preprocessor >>  hello_world.c
+~$ Compiler     >>  hello_world.i
+~$ Assembler    >>  hello_world.s
+~$ END
+~$ Executable   >>  hello_world.exe
 ```
 
 #### 7. Ağ Protokolleri ve Temelleri
@@ -302,12 +302,12 @@ Derlenmiş kötü amaçlı yazılımlar kolayca Assembly diline dönüştürüle
 
 Statik kod analizi eğitiminde, "Assembly" Dilinin temellerine de odaklanacağız.
 
- START
-• Preprocessor>>hello_world.c
-• Compiler>>hello_world.i
-• Assembler>>hello_world.s
-END
-Executable>>hello_world.exe
+~$ START
+~$ Preprocessor >>  hello_world.c
+~$ Compiler     >>  hello_world.i
+~$ Assembler    >>  hello_world.s
+~$ END
+~$ Executable   >>  hello_world.exe
 ```
 
 #### 7. Ağ Protokolleri ve Temelleri
