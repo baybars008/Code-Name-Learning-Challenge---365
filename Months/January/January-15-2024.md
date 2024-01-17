@@ -1200,8 +1200,6 @@ list_files() {
 list_files $(get_home)
 ```
 ```
-Certainly, here is the translation of your text into US English, with the structure and bullet points preserved:
-
 `#!/bin/bash`: This line specifies which interpreter will be used to run the script. Here, it indicates that the bash interpreter located at `/bin/bash` will be used. This line is known as the "shebang" and is placed at the very beginning of the script file.
 
 `get_hostname()` function:
@@ -1301,8 +1299,6 @@ This script is used to backup a specified directory. If no directory path argume
 ```
 #### 19--1. In addition, you can automate the process with a crontab structure.
 ```
-Certainly, here is the translation of your text into US English, while preserving the structure and bullet points:
-
 `crontab` (cron table) is a tool used for time-based job scheduling in Unix and Unix-like operating systems. The name "Cron" is derived from "chronos," the Greek word for "time." `crontab` files define the scheduling of scripts and commands that need to be run automatically at regular intervals on the system.
 
 Key topics related to `crontab` include:
