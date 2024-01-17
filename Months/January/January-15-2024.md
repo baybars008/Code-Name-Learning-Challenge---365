@@ -600,9 +600,9 @@ Bu script, belirtilen bir dizini yedeklemek için kullanılır. Eğer scripte bi
 **Sözdizimi**: Bir `crontab` girdisi beş alan içerir: dakika (0 - 59), saat (0 - 23), ayın günü (1 - 31), ay (1 - 12 veya isimler), haftanın günü (0 - 7, hem 0 hem de 7 Pazar anlamına gelir). Bu alanların ardından çalıştırılacak komut gelir.
 
    Örnek:
-   ```
+
    30 08 * * * /home/user/backup.sh
-   ```
+
    Bu örnek, her gün saat 08:30'da `backup.sh` scriptini çalıştırır.
 
 3. **Yönetim Komutları**:
