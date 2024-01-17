@@ -1200,30 +1200,32 @@ list_files() {
 list_files $(get_home)
 ```
 ```
-`#!/bin/bash`: Bu satır, scriptin hangi yorumlayıcı tarafından çalıştırılacağını belirtir. Burada `/bin/bash` yolu ile bash yorumlayıcısı kullanılacağını gösterir. Bu satıra "shebang" denir ve script dosyasının en başında yer alır.
+Certainly, here is the translation of your text into US English, with the structure and bullet points preserved:
 
-`get_hostname()` fonksiyonu:
-   - Bu bölüm, `get_hostname` adında bir fonksiyon tanımlar.
-   - `echo $HOSTNAME`: Bu satır, `HOSTNAME` ortam değişkeninin değerini ekrana yazdırır. `HOSTNAME` genellikle mevcut bilgisayarın ağ adını içerir.
+`#!/bin/bash`: This line specifies which interpreter will be used to run the script. Here, it indicates that the bash interpreter located at `/bin/bash` will be used. This line is known as the "shebang" and is placed at the very beginning of the script file.
 
-`get_home()` fonksiyonu:
-   - `get_home` adında başka bir fonksiyon tanımlar.
-   - `echo $HOME`: Bu satır, `HOME` ortam değişkeninin değerini ekrana yazdırır. `HOME`, kullanıcının ana dizin yolunu içerir.
+`get_hostname()` function:
+   - This section defines a function named `get_hostname`.
+   - `echo $HOSTNAME`: This line prints the value of the `HOSTNAME` environment variable to the screen. `HOSTNAME` usually contains the network name of the current computer.
 
-`echo "Hello, I am $(get_hostname). I live in the $(get_home) directory."`: Bu satır, yukarıda tanımlanan iki fonksiyonu kullanarak bir mesaj yazdırır. `$(get_hostname)` ve `$(get_home)` ifadeleri, bu fonksiyonların çıktılarını alır ve mesaja ekler.
+`get_home()` function:
+   - Defines another function named `get_home`.
+   - `echo $HOME`: This line prints the value of the `HOME` environment variable to the screen. `HOME` contains the path of the user's home directory.
 
-`list_files()` fonksiyonu:
-   - `list_files` adında bir fonksiyon daha tanımlar.
-   - `echo "There are $# arguments"`: Bu satır, fonksiyona verilen argüman sayısını yazdırır. `$#` özel bir değişkendir ve fonksiyona geçirilen argümanların sayısını temsil eder.
-   - `echo "Argument 1 is $1"`: Bu satır, fonksiyona geçirilen ilk argümanın değerini yazdırır. `$1`, fonksiyona geçirilen ilk argümanı temsil eder.
-   - `ls -al $1`: Bu satır, `$1` değişkenindeki dizindeki dosya ve klasörleri listeler. `ls -al`, dosyaları ayrıntılı ve gizli dosyalar dahil şekilde listeler.
+`echo "Hello, I am $(get_hostname). I live in the $(get_home) directory."`: This line prints a message using the two functions defined above. `$(get_hostname)` and `$(get_home)` expressions retrieve the outputs of these functions and incorporate them into the message.
 
-`list_files $(get_home)`: Bu satır, `list_files` fonksiyonunu çağırır ve argüman olarak `get_home` fonksiyonunun çıktısını kullanır. Yani kullanıcının ana dizinindeki dosya ve klasörler listelenir.
+`list_files()` function:
+   - Defines another function named `list_files`.
+   - `echo "There are $# arguments"`: This line prints the number of arguments passed to the function. `$#` is a special variable and represents the number of arguments passed to the function.
+   - `echo "Argument 1 is $1"`: This line prints the value of the first argument passed to the function. `$1` represents the first argument passed to the function.
+   - `ls -al $1`: This line lists files and folders in the directory specified in the `$1` variable. `ls -al` lists files in a detailed manner including hidden files.
 
-Bu script, fonksiyon tanımları ve bu fonksiyonların nasıl kullanılacağını gösteren bir örnektir. Ayrıca, fonksiyonlara argüman geçirme ve bu argümanların nasıl kullanılacağı konusunda da bilgi verir.
+`list_files $(get_home)`: This line calls the `list_files` function and uses the output of the `get_home` function as an argument. This means it lists files and folders in the user's home directory.
+
+This script is an example of defining functions and how to use these functions. It also provides information on passing arguments to functions and how to use these arguments.
 ```
 
-#### 19. Learning Bash Fundamentals - backup (bash ile sistem yedeklemeyi otomatik hale getirme)
+#### 19. Learning Bash Fundamentals - backup (automate system backup with bash)
 ```
 #!/bin/bash
 
@@ -1267,63 +1269,65 @@ else
 fi
 ```
 ```
-`#!/bin/bash`: Bu satır, scriptin hangi yorumlayıcı tarafından çalıştırılacağını belirtir. Burada `/bin/bash` yolu ile bash yorumlayıcısı kullanılacağını gösterir. Bu satıra "shebang" denir ve script dosyasının en başında yer alır.
+`#!/bin/bash`: This line specifies which interpreter will be used to run the script. Here, it indicates that the bash interpreter located at `/bin/bash` will be used. This line is known as the "shebang" and is placed at the very beginning of the script file.
 
-`backup_dir=""`: Bu satır, `backup_dir` adında bir değişken oluşturur ve boş bir değer atar.
+`backup_dir=""`: This line creates a variable named `backup_dir` and assigns an empty value to it.
 
-`if` Bloğu:
-   - `if [ -z $1 ]`: Bu ifade, scripte verilen ilk argümanın (`$1`) boş olup olmadığını kontrol eder. `-z` testi, bir string'in boş olup olmadığını sorgular.
-   - Eğer argüman boşsa, `backup_dir` değişkenine `/usr/local/engineering` değerini atar.
-   - Eğer argüman boş değilse, `backup_dir` değişkenine bu argümanın değerini atar.
+`if` Block:
+   - `if [ -z $1 ]`: This expression checks if the first argument (`$1`) given to the script is empty. The `-z` test queries if a string is empty.
+   - If the argument is empty, the `backup_dir` variable is assigned the value `/usr/local/engineering`.
+   - If the argument is not empty, the `backup_dir` variable is assigned the value of this argument.
 
-İkinci `if` Bloğu:
-   - `if [ ! -d $backup_dir ]`: Bu ifade, `backup_dir` değişkeninin bir dizin olup olmadığını kontrol eder. `! -d` testi, belirtilen yolun bir dizin olmadığını sorgular.
-   - Eğer belirtilen dizin yoksa, bir hata mesajı yazdırır ve scripti `exit 1` komutu ile hata koduyla sonlandırır.
+Second `if` Block:
+   - `if [ ! -d $backup_dir ]`: This expression checks if the `backup_dir` variable is a directory. The `! -d` test queries if the specified path is not a directory.
+   - If the specified directory does not exist, it prints an error message and terminates the script with an error code using `exit 1`.
 
-`backup_file_name=/tmp/engineering_$(date +%Y-%m-%d_%H%M%S).tar.gz`: Bu satır, yedekleme dosyasının adını oluşturur. `date` komutu ile tarih ve saat bilgisi alınır ve bu, dosya adının bir parçası olur.
+`backup_file_name=/tmp/engineering_$(date +%Y-%m-%d_%H%M%S).tar.gz`: This line creates the name for the backup file. The `date` command is used to get the date and time information, which becomes part of the file name.
 
-`files_to_be_backed_up` Fonksiyonu:
-   - Bu bölüm, `files_to_be_backed_up` adında bir fonksiyon tanımlar.
-   - Fonksiyon, `find` komutu ile `backup_dir` içindeki tüm dosyaları bulur ve `wc -l` ile dosya sayısını hesaplar.
+`files_to_be_backed_up` Function:
+   - This section defines a function named `files_to_be_backed_up`.
+   - The function finds all files in `backup_dir` using the `find` command and calculates the number of files with `wc -l`.
 
-Yedekleme Arşivi Oluşturma:
-   - Bu satır, yedeklenecek dosya sayısını yazdırır.
-   - `tar -czf $backup_file_name $backup_dir 2> /tmp/backup.log`: `tar` komutu ile belirtilen dizindeki dosyaları sıkıştırıp arşivler. Herhangi bir hata `/tmp/backup.log` dosyasına yönlendirilir.
+Creating Backup Archive:
+   - This line prints the number of files to be backed up.
+   - `tar -czf $backup_file_name $backup_dir 2> /tmp/backup.log`: The `tar` command compresses and archives the files in the specified directory. Any errors are directed to the `/tmp/backup.log` file.
 
-Yedekleme Arşivini Kontrol Etme:
-   - `if [ -f $backup_file_name ]`: Bu ifade, yedekleme dosyasının başarıyla oluşturulup oluşturulmadığını kontrol eder.
-   - Eğer dosya varsa, yedeklemenin başarılı olduğunu belirten bir mesaj yazdırır.
-   - Eğer dosya yoksa, yedeklemenin başarısız olduğunu belirten bir mesaj yazdırır.
+Checking Backup Archive:
+   - `if [ -f $backup_file_name ]`: This expression checks if the backup file was successfully created.
+   - If the file exists, it prints a message indicating the backup was successful.
+   - If the file does not exist, it prints a message indicating the backup was unsuccessful.
 
-Bu script, belirtilen bir dizini yedeklemek için kullanılır. Eğer scripte bir dizin yolu argümanı verilmezse, varsayılan olarak `/usr/local/engineering` dizini kullanılır. Yedekleme işlemi, `tar` komutu ile gerçekleştirilir ve yedekleme sırasında oluşabilecek hatalar bir log dosyasına yazılır. Ayrıca, yedekleme işlemi başarılı olup olmadığı da kontrol edilir. Bu script, argümanların kullanımı, koşullu ifadeler, fonksiyon tanımları ve dosya/dizin işlemleri gibi bash scripting'in temel konularını kapsar.
+This script is used to backup a specified directory. If no directory path argument is given to the script, it defaults to using the `/usr/local/engineering` directory. The backup process is carried out with the `tar` command, and any errors during backup are written to a log file. It also checks whether the backup process was successful. This script covers basic topics of bash scripting such as the use of arguments, conditional statements, function definitions, and file/directory operations.
 ```
-#### 19--1. Buna ek olarak bir crontab yapısı ile süreci otomatik hale getirebilirsiniz.
+#### 19--1. In addition, you can automate the process with a crontab structure.
 ```
-`crontab` (cron table), Unix ve Unix-benzeri işletim sistemlerinde zaman tabanlı görev planlaması için kullanılan bir araçtır. "Cron" adı, "chronos" (Yunanca'da "zaman") kelimesinden türetilmiştir. `crontab` dosyaları, sistemde düzenli aralıklarla otomatik olarak çalıştırılması gereken scriptlerin ve komutların zamanlamasını tanımlar.
+Certainly, here is the translation of your text into US English, while preserving the structure and bullet points:
 
-`crontab` ile ilgili ana konular şunlardır:
+`crontab` (cron table) is a tool used for time-based job scheduling in Unix and Unix-like operating systems. The name "Cron" is derived from "chronos," the Greek word for "time." `crontab` files define the scheduling of scripts and commands that need to be run automatically at regular intervals on the system.
 
-**Crontab Dosyaları**: Her kullanıcının kendi `crontab` dosyası olabilir. Bu dosyalar, kullanıcının belirlediği zamanlarda çalıştırılacak komutları içerir.
+Key topics related to `crontab` include:
 
-**Sözdizimi**: Bir `crontab` girdisi beş alan içerir: dakika (0 - 59), saat (0 - 23), ayın günü (1 - 31), ay (1 - 12 veya isimler), haftanın günü (0 - 7, hem 0 hem de 7 Pazar anlamına gelir). Bu alanların ardından çalıştırılacak komut gelir.
+**Crontab Files**: Each user can have their own `crontab` file. These files contain commands to be executed at times specified by the user.
 
-   Örnek:
+**Syntax**: A `crontab` entry contains five fields: minute (0 - 59), hour (0 - 23), day of the month (1 - 31), month (1 - 12 or names), and day of the week (0 - 7, both 0 and 7 represent Sunday). These fields are followed by the command to be executed.
+
+   Example:
 
    30 08 * * * /home/user/backup.sh
 
-   Bu örnek, her gün saat 08:30'da `backup.sh` scriptini çalıştırır.
+   This example runs the `backup.sh` script every day at 08:30 AM.
 
-3. **Yönetim Komutları**:
-   - `crontab -e`: Kullanıcının crontab dosyasını düzenlemek için kullanılır.
-   - `crontab -l`: Mevcut crontab dosyasını görüntüler.
-   - `crontab -r`: Kullanıcının crontab dosyasını siler.
+3. **Management Commands**:
+   - `crontab -e`: Used to edit the user's crontab file.
+   - `crontab -l`: Displays the current crontab file.
+   - `crontab -r`: Deletes the user's crontab file.
 
-4. **Sistem Genelinde Cron İşleri**: Sistemin kendisi de kendi cron işlerini çalıştırabilir. Bu işler genellikle `/etc/crontab` dosyasında veya `/etc/cron.*` dizinlerinde tanımlanır.
+4. **System-wide Cron Jobs**: The system itself can also run its own cron jobs. These jobs are typically defined in the `/etc/crontab` file or in `/etc/cron.*` directories.
 
-`crontab`, otomatik yedeklemeler, rapor oluşturma, sistem güncellemeleri gibi düzenli olarak gerçekleştirilmesi gereken görevler için sıkça kullanılır. Bu mekanizma, sistem yöneticileri ve geliştiriciler için oldukça değerli bir araçtır.
+`crontab` is frequently used for tasks that need to be performed regularly, such as automatic backups, report generation, system updates, etc. This mechanism is a highly valuable tool for system administrators and developers.
 ```
 
-#### 20. Learning Bash Fundamentals - system info (bash ile sistem bilgilerini görüntüleme)
+#### 20. Learning Bash Fundamentals - system info (display system information with bash)
 ```
 #!/bin/bash
 
@@ -1400,8 +1404,6 @@ echo "
 "
 ```
 ```
-Certainly, here is the translation of your text into US English, maintaining the structure and bullet points:
-
 `#!/bin/bash`: This line specifies which interpreter will be used to run the script. Here, it indicates that the bash interpreter located at `/bin/bash` will be used. This line is known as the "shebang" and is placed at the very beginning of the script file.
 
 **Host Information**:
