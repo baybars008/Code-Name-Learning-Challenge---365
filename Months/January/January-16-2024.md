@@ -1,4 +1,4 @@
-<h2> [Day-16] January 16, 2024 : Linux Command Line - From Zero to Expert - Step 01" | [TR] </h2> 
+<h2> [Day-16] January 16, 2024 : Read write-ups on Recon" | [EN] </h2> 
 
 + #### [Scope Based Recon](https://hbothra22.medium.com/scope-based-recon-smart-recon-tactics-7e72d590eae5)
 + #### [Spend more time doing recon, you’ll find more BUGS.](https://vedanttekale20.medium.com/spend-more-time-doing-recon-youll-get-more-bugs-e7ffd5bf9202)
