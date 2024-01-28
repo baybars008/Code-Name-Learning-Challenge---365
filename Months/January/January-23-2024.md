@@ -18,7 +18,9 @@ XXX
 
 #### 1. The Importance of Dynamic Malware Analysis for SOC Analysts
 ```
-"If you ask a friend who works as a SOC analyst what they do in their job, one of the things you'll likely hear is 'I analyze suspicious files.' Malware analysis is one of the most crucial tasks in a SOC. No matter what level of SOC analyst you are, I can confidently say that you will be closely working with malware in your daily life.
+"If you ask a friend who works as a SOC analyst what they do in their job, one of the things you'll likely hear is 'I analyze suspicious files.
+' Malware analysis is one of the most crucial tasks in a SOC. 
+No matter what level of SOC analyst you are, I can confidently say that you will be closely working with malware in your daily life.
 ```
 ```
 But why dynamic analysis and not static analysis?
