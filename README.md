@@ -45,13 +45,13 @@ ID | Day | Topic
 ** 22 ** | **January 22, 2024** | [**<ul><li> "Malware Analysis Fundamentals - Step 03" </li></ul>**](/Months/January/January-22-2024.md)
 ** 23 ** | **January 23, 2024** | [**<ul><li> "Malware Analysis Fundamentals - Step 04" </li></ul>**](/Months/January/January-23-2024.md)
 ** 24 ** | **January 24, 2024** | [**<ul><li> "Malware Analysis Fundamentals - Step 05" </li></ul>**](/Months/January/January-24-2024.md)
-** 25 ** | **January 25, 2024** | [**<ul><li> "Malware Analysis Fundamentals - Step 06" </li></ul>**](/Months/January/January-25-2024.md)
-** 26 ** | **January 26, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-26-2024.md)
+** 25 ** | **January 25, 2024** | [**<ul><li> "Introduction to Cyber Threat Intelligence - Step 01" </li></ul>**](/Months/January/January-25-2024.md)
+** 26 ** | **January 26, 2024** | [**<ul><li> "Introduction to Cyber Threat Intelligence - Step 02" </li></ul>**](/Months/January/January-26-2024.md)
 ** 27 ** | **January 27, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-27-2024.md)
-** 28 ** | **January 27, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-28-2024.md)
-** 29 ** | **January 27, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-29-2024.md)
-** 30 ** | **January 27, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-30-2024.md)
-** 31 ** | **January 27, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-31-2024.md)
+** 28 ** | **January 28, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-28-2024.md)
+** 29 ** | **January 29, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-29-2024.md)
+** 30 ** | **January 30, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-30-2024.md)
+** 31 ** | **January 31, 2024** | [**<ul><li> "XXX" </li></ul>**](/Months/January/January-31-2024.md)
 
 </details>
 <br>
