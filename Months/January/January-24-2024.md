@@ -136,55 +136,123 @@ Bu nedenle, mümkün olduğunca açıklayıcı yorumlar girmenizi öneririm.
 
 #### 1. Install Virtualization Software
 ```
-XXX
+"Before setting up a virtual operating system, we need to install virtualization software that will facilitate this."
+Although there are some differences among them, any of the virtualization software will assist us in our dynamic analysis. 
+You can install one of the following virtualization software:
+
+• VMware Workstation
+• VMware Fusion (for macOS)
+• Oracle Virtualbox
 ```
 
 #### 2. Install Operating System
 ```
-XXX
+For malware analysis, we need to make some configuration changes in our Virtual Machine.
+
+To download Windows 10 ISO: https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise
 ```
 
 #### 3. Disable Anti-malware Solutions
 ```
-XXX
+You can open the Local Group Policy Editor application by searching for "edit group policy" in the Start menu. 
+Alternatively, you can access the Local Group Policy Editor application by searching for "gpedit.msc" or via the "Search>Run" function in Windows.
+To disable Windows Defender using the Local Group Policy Editor application, you need to navigate to the following policy:
+“Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus”
+Here, double-click on the "Turn off Microsoft Defender Antivirus" policy and set it to "Enabled."
+Additionally, you should also disable the "Monitor file and program activity on your computer" policy under "Real-Time Protection."
 ```
 
 #### 4. Rename Your Virtual Operating System
 ```
-XXX
+Some malware performs various checks to avoid running in analysis environments. 
+One of these checks is verifying the host name. 
+Since most sandboxes have host names like "Sandbox," "Malware," "Cuckoo," malware is programmed not to run on systems with these names.
+Ensuring your VM appears like a regular user's system will help you evade anti-analysis techniques. 
+Setting a random name as the host name will aid in bypassing these types of checks.
+To change the device name, go to “Settings → System → About” and then click on the “Rename this PC” button.
+Don’t forget to change your username as well!
 ```
 
 #### 5. Disable Automatic Updates
 ```
-XXX
+The malware we will analyze may be exploiting vulnerabilities in the operating system. 
+To ensure the malware can operate as normally as possible, we need to disable automatic updates on our virtual operating system.
+You can disable automatic updates through group policy settings.
+Open the Local Group Policy Editor application by searching for “edit group policy” in the Start menu. 
+Alternatively, you can access the Local Group Policy Editor application by searching for “gpedit.msc” or via the “Search>Run” function in Windows.
+Then, you should navigate to the following policy.
+“Computer Configuration > Administrative Templates > Windows Components > Windows Update”
+After reaching the relevant policy, you must set the "Configure Automatic Updates" policy to "Disabled."
 ```
 
 #### 6. Disable Hidden Extensions
 ```
-XXX
+You might have seen attackers change file extensions to deceive their victims. How do they do it?
+Windows operating systems are set by default to hide known file extensions. 
+So, a file named "Chrome.exe" would appear simply as "Chrome" by default. 
+Attackers name their malicious software "Photo.jpg.exe," causing the user to see the file as "Photo.jpg." 
+When the user opens the file thinking it's an image, the malware begins to operate.
+To avoid confusion during analysis, we need to ensure that extensions hidden by default are always shown.
+To do this, open the application called "File Explorer" and click on "File" at the top menu, then click on "Change folder and search options" to access the settings menu.
+Then, from the "View" tab, uncheck the "Hide extensions for known file types" option and save the settings.
 ```
 
 #### 7. Show Hidden Files and Folders
 ```
-XXX
+Malware aims to prevent users from detecting its files by hiding them. 
+Showing hidden files and directories by default will facilitate a more comfortable analysis.
+Let's open the application called "File Explorer" and click on "File" in the top menu, then click on "Change folder and search options" to open the settings menu.
+Next, from the "View" tab, select "Show hidden files, folders, and drives" and save the setting.
 ```
 
 #### 8. Disable ASLR (Address Space Layout Randomization)
 ```
-XXX
+Windows' newer versions feature an anti-exploit security mechanism known as ASLR (Address Space Layout Randomization).
+You can disable this setting with the help of the Registry Editor.
+Open the Registry Editor application and access the following registry key.
+“HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management”
+Create a key of type “REG_DWORD” named "MoveImages".
+These settings will ultimately disable the ASLR feature.
 ```
 
 #### 9. Disable Windows Firewall
 ```
-XXX
+As we've done in previous steps, to prevent interference with the security mechanisms of the malware we are analyzing, we must disable the Windows Firewall.
+Access the Windows Defender Firewall settings through the Control Panel.
+You can use the search bar at the top of File Explorer to access these settings.
+If you copy and search the following path into this search bar, it will take you to the Windows Defender Firewall settings.
+"Control Panel\System and Security\Windows Defender Firewall\Customize"
+After accessing the Defender Firewall settings, select the option "Turn off Windows Defender Firewall" and save.
+This will disable the Firewall.
 ```
 
 #### 10. Mimic End-User System
 ```
-XXX
+To avoid detection by anti-analysis techniques of the malware you are analyzing, it's crucial to make your VM resemble a normal end-user operating system as closely as possible.
+Since there are no specific instructions or settings for this, how closely your analysis VM mimics a regular user's computer is entirely up to you.
+To ensure similarity in your VM, you might consider the following suggestions:
+• Installing browsers that are commonly preferred by end-users, such as Chrome and Firefox.
+• Placing files in various directories that might draw the attacker's interest.
+• Changing the desktop background.
+• Downloading small applications through the browser to ensure the presence of some files in the Downloads directory.
+• Change Network Settings
+We need to prevent the malware from spreading to different devices via network connections. 
+With the private networks provided by virtualization software, we can stop the malware from infecting other devices.
+To do this, click on the "VM" menu in the top menu of VMware Workstation and select "Settings."
+In the window that opens, select "Network Adapter" from the left menu and choose the "Private" setting.
 ```
 
 #### 11. Mimic End-User System
 ```
-XXX
+"After conducting malware or ransomware analysis on your system, your operating system can become functionally compromised or unusable. 
+You wouldn't want your operating system to be affected by the changes made by the malware you analyzed previously when you want to analyze a new piece of malware.
+In such cases, you can benefit from the Snapshot feature of virtualization software.
+A Snapshot is a feature that allows you to take an instantaneous image of your Virtual Machine and later revert back to this backup.
+We have configured our VM for malware analysis and installed the applications we will use for analysis.
+At this stage, you can take a Snapshot and switch to the same analysis environment as your clean VM.
+To take snapshots, access the Snapshot Manager screen by clicking on the "VM" menu in the top menu of the VMware Workstation application, then click on "Snapshot" -> "Snapshot Manager."
+Then you can click on the "Take Snapshot" button to take a snapshot of your VM.
+Taking a snapshot is that easy.
+Entering detailed information in the description section helps you easily find the Snapshot you need.
+Therefore, I recommend entering as descriptive comments as possible."
 ```
